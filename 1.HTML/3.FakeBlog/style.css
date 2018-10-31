@@ -1,0 +1,23 @@
+
+#mojo {
+    color: rgb(128, 128, 30);
+}
+
+img {
+    width: 500px;
+}
+
+div {
+
+    width: 7000px;
+}
+
+h1 {
+    display: block;
+    width: 800px;
+}
+
+form {
+    border-style: solid;
+    color: black;
+}

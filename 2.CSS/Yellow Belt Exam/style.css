@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#wrapper{
+    width: 970px;
+    margin: 0px auto;
+    background-color: rgb(14, 12, 12);
+    color: rgba(218, 211, 211, 0.884);
+}
+
+#main{
+    background-color: rgb(22, 21, 21);
+    margin: 5px;
+}
+
+    #main img{
+        width: 960px;
+        border-bottom: 4px solid rgb(46, 44, 44);
+    }
+
+#header {
+    background-color: rgb(22, 21, 21);
+}
+
+    #header img{
+        width: 250px;
+        margin-bottom: 0px;
+    }
+
+    #header h3{
+        display: inline-block;
+        text-align: right;
+        color: rgb(209, 200, 200);
+        width: 700px;
+        vertical-align: top;
+        position: relative;
+        top: 20px;
+        font-size: 12px;
+    }
+
+#nav{
+    color: rgb(174, 177, 177);
+    background-image: linear-gradient(to top, rgba(82,79,79,0), rgba(82,79,79,1));
+    list-style-type: none;            
+    text-align: left;
+    margin: 0px auto;
+    font-size: 12px;
+}
+
+    #nav li{
+        display: inline-block;
+        margin: 10px;
+        padding-right: 10px;
+    }
+
+    #nav li span{
+        position: relative;
+        right: 10px;
+        padding: 0px 7px 0px 6px;
+        font-size: 19px;
+        color: rgba(99, 91, 91, 0.6);
+    }
+
+    #nav li span.arrow{
+        font-size: 8px;
+        padding-left: 10px;
+        color: rgb(174, 177, 177);
+    }
+
+#home{
+    color: white;
+}
+
+#pages{
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+    #pages li{
+        display: inline-block;
+        vertical-align: top;
+        width: 190px;
+        margin: 2px;
+        padding: 10px 10px 10px 25px;
+    }
+
+        #pages li img{
+        width: 40px;
+        vertical-align: top;
+        padding: 1px;
+        border: none;
+    }
+
+        #pages li div{
+        display: inline-block;
+        vertical-align: top;
+        width: 140px;
+    }
+
+        #pages li div p{
+            font-size: 12px;
+            padding: 3px;
+        }
+
+h2{
+    color: rgb(223, 127, 37);
+    font-size: 16px;
+}
+
+#middle{
+    background: repeating-linear-gradient(-45deg,  #0a0909, #0a0909 0.2px, #2e2929 0.2px, #2e2929 0.4px);
+}
+
+#topic{
+    display: inline-block;
+    width: 720px;
+    padding: 15px;
+}
+
+    #topic h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    #topic p{
+        font-size: 12px;
+        padding: 5px;
+    }
+
+button{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+    padding: 10px 25px 10px 35px;
+    background-color: rgb(228, 141, 59);
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid rgb(43, 39, 39);
+}
+
+
+#portfolio{
+    height: 20px;
+    padding: 10px;
+}
+
+    #portfolio h2{
+        width: 680px;
+        vertical-align: top;
+        color: rgb(209, 200, 200);
+        display: inline-block;
+        padding: 10px 10px 10px 17px;
+        font-size: 16px;
+    }
+    #portfolio h4{
+        display: inline-block;
+        width: 200px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+h4{
+    color: rgb(223, 127, 37);
+    font-style: italic;
+    text-align: right;
+    font-size: 14px;
+}
+
+#projects{
+    list-style-type: none;
+    padding: 20px;
+
+}
+    #projects li{
+        display: inline-block;
+        vertical-align: top;
+        width: 205px;
+        padding: 7px;
+        margin-right: 5px;
+    }
+
+        #projects li img{
+            width: 200px;
+            border: 3px solid rgb(80, 75, 75);
+        }
+
+        #projects li h3{
+            padding: 5px 3px 3px 3px;
+        }
+
+        #projects li p{
+            font-size: 12px;
+            padding: 2px;
+        }
+
+h3{
+    color: rgb(223, 127, 37);
+    font-size: 14px;
+}
+
+footer{
+    text-align: right;
+    font-size: 9px;
+    padding: 0px 20px 5px 0px;
+}
+

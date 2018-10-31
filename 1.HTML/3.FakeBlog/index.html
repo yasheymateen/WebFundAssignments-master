@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="lebron-james" content="lebron james is basketball player for los angeles lakers">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <h1 class="yellow">Lebron James</h1>
+        <img src="https://mk0slamonlinensgt39k.kinstacdn.com/wp-content/uploads/2018/10/lbj1.jpg" alt="">
+        <p class="yellow"> Lebron James is a basketball player for the Los Angeles Lakers. Over his career, he has amassed: </p>
+            <ul>
+                <li>3 NBA Championships</li>
+                <li>14x NBA All-Star</li>
+                <li>4 NBA Finals MVPs</li>
+                <li>9 Trips to the NBA Finals (8 consecutive)</li>
+            </ul>
+        
+    </div>
+    <div>
+        <img src="lebron.png" alt="">
+        <a href="">NBA</a>
+    <h1 id="mojo">NBA Finals Statistics</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Team</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2009-2010</td>
+                    <td>Cleveland Cavaliers</td>
+                    <td>Lost to San Antonio Spurs</td>
+                </tr>
+                <tr>
+                    <td>2010-2011</td>
+                    <td>Miami Heat</td>
+                    <td>Lost to Dallas Mavericks</td>
+                </tr>
+                <tr>
+                    <td>2011-2012</td>
+                    <td>Miami Heat</td>
+                    <td>Won against Oklahoma City Thunder</td>
+                </tr>
+                <tr>
+                    <td>2012-2013</td>
+                    <td>Miami Heat</td>
+                    <td>Won against San Antonio Spurs</td>
+                </tr>
+                <tr>
+                    <td>2013-2014</td>
+                    <td>Miami Heat</td>
+                    <td>Lost to San Antonio Spurs</td>
+                </tr>
+                <tr>
+                    <td>2014-2015</td>
+                    <td>Cleveland Cavaliers</td>
+                    <td>Lost to Golden State Warriors</td>
+                </tr>
+                <tr>
+                    <td>2015-2016</td>
+                    <td>Cleveland Cavaliers</td>
+                    <td>Won Against Golden State Warriors</td>
+                </tr>
+                <tr>
+                    <td>2016-2017</td>
+                    <td>Cleveland Cavaliers</td>
+                    <td>Lost to Golden State Warriors</td>
+                </tr>
+                <tr>
+                    <td>2017-2018</td>
+                    <td>Cleveland Cavaliers</td>
+                    <td>Lost to Golden State Warriors</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p> Click <a href ="http://www.nba.com/players/lebron/james/2544">here</a> for Lebron's NBA Page</p>
+
+    <div>
+        <form action="process.php" method="post">
+            <h1>NBA Player Survey</h1>
+
+            <p>Which team was Lebron better on?</p>
+                <select name="team">
+                    <option value="Cleveland Cavaliers">Cleveland Cavaliers</option>
+                    <option value="Miami Heat">Miami Heat</option>
+                    <option value="Los Angeles Lakers">Los Angeles Lakers</option>
+                </select>
+
+                <p>Is Lebron YOUR Favorite Player?</p>
+                <label for="yes">Yes</label>
+                <input type="checkbox" id="yes" name="answer" value="yes">
+
+                <label for="no">No</label>
+                <input type="checkbox" id="no" name="answer" value="no">
+
+           <p>If not then who is?</p> 
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+            <p>What position do they play?</p>
+            <label for="small_forward">Small Forward</label>
+            <input type="radio" id="small_forward" name="position" value="small_forward">
+
+            <label for="power_forward">Power Forward</label>
+            <input type="radio" id="power_forward" name="position" value="power_forward">
+
+            <label for="center">Center</label>
+            <input type="radio" id="center" name="position" value="center">
+
+            <label for="shooting_guard">Shooting Guard</label>
+            <input type="radio" id="shooting_guard" name="position" value="shooting_guard">
+
+            <label for="point_guard">Point Guard</label>
+            <input type="radio" id="point_guard" name="position" value="point_guard">
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>
